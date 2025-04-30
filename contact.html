@@ -114,96 +114,92 @@ Blog
                 <div class="col-md-8">
                     <div class="cont_pg1l">
                         <h5 class="mb-0 fs-3">Get In Touch</h5>
-                        <div class="cont_pg1li row mt-3">
-                            <div class="col-md-6">
-                                <div class="cont_pg1lil">
-                                    <input class="form-control" placeholder="First Name" type="text">
+                        <form id="contactForm" action="https://script.google.com/macros/s/AKfycbwjWcdIOVEEkw_0UkPO-GLk6jTjlOLnxWE3ZncJPMT6aOJgghOQ0keefzJAavDkInJA/exec" method="POST">
+                            <div class="cont_pg1li row mt-3">
+                                <div class="col-md-6">
+                                    <input class="form-control" name="firstName" placeholder="First Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-control" name="lastName" placeholder="Last Name" required>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="cont_pg1lil">
-                                    <input class="form-control" placeholder="Last Name" type="text">
+                            <div class="cont_pg1li row mt-3">
+                                <div class="col-md-6">
+                                    <input class="form-control" name="phone" placeholder="Phone Number" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-control" name="email" placeholder="Email Address" type="email" required>
                                 </div>
                             </div>
-                        </div>
-                        <div class="cont_pg1li row mt-3">
-                            <div class="col-md-6">
-                                <div class="cont_pg1lil">
-                                    <input class="form-control" placeholder="Phone Number" type="text">
+                            <div class="cont_pg1li row mt-3">
+                                <div class="col-md-12">
+                                    <textarea name="message" placeholder="Write Your Message" class="form-control" required></textarea>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="cont_pg1lil">
-                                    <input class="form-control" placeholder="Email Address" type="text">
-                                </div>
+                            <div class="mt-4 text-end">
+                                <button type="submit" class="button rounded-0">Send Message</button>
                             </div>
-                        </div>
-                        <div class="cont_pg1li row mt-3">
-                            <div class="col-md-12">
-                                <div class="cont_pg1lil">
-                                    <textarea placeholder="Write Your Message" class="form-control form_text"></textarea>
-                                    <h6 class="mb-0 mt-4 text-end"><a class="button rounded-0" href="#">Send Messsage</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="cont_pg1r">
-                        <div class="contact_2li row">
-                            <div class="col-md-2 col-2">
-                                <div class="contact_2lil">
-                                    <span class="fs-2 col_red lh-1"><i class="fa fa-phone"></i></span>
-                                </div>
-                            </div>
-                            <div class="col-md-10 col-10">
-                                <div class="contact_2lir">
-                                    <h6>PHONE</h6>
-                                    <h5 class="mb-0">+91 7020676570</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="contact_2li row mt-4">
-                            <div class="col-md-2 col-2">
-                                <div class="contact_2lil">
-                                    <span class="fs-2 col_red lh-1"><i class="fa fa-fax"></i></span>
-                                </div>
-                            </div>
-                            <div class="col-md-10 col-10">
-                                <div class="contact_2lir">
-                                    <h6>PHONE</h6>
-                                    <h5 class="mb-0">+91 9730533699</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="contact_2li row mt-4">
-                            <div class="col-md-2 col-2">
-                                <div class="contact_2lil">
-                                    <span class="fs-2 col_red lh-1"><i class="fa fa-map-marker"></i></span>
-                                </div>
-                            </div>
-                            <div class="col-md-10 col-10">
-                                <div class="contact_2lir">
-                                    <h6>ADDRESS</h6>
-                                    <h5 class="mb-0">In Front of Aanand Vihar Gate,Aanand Sagar Road,Shegaon</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="contact_2li row mt-4">
-                            <div class="col-md-2 col-2">
-                                <div class="contact_2lil">
-                                    <span class="fs-2 col_red lh-1"><i class="fa fa-envelope"></i></span>
-                                </div>
-                            </div>
-                            <div class="col-md-10 col-10">
-                                <div="contact_2lir">
-                                    <h6>EMAIL</h6>
-                                    <h5 class="mb-0">sanjayadakane@gmail.com</h5>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="col-md-4">
+            <div class="cont_pg1r">
+                <div class="contact_2li row">
+                    <div class="col-md-2 col-2">
+                        <div class="contact_2lil">
+                            <span class="fs-2 col_red lh-1"><i class="fa fa-phone"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-10">
+                        <div class="contact_2lir">
+                            <h6>PHONE</h6>
+                            <h5 class="mb-0">+91 7020676570</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_2li row mt-4">
+                    <div class="col-md-2 col-2">
+                        <div class="contact_2lil">
+                            <span class="fs-2 col_red lh-1"><i class="fa fa-fax"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-10">
+                        <div class="contact_2lir">
+                            <h6>PHONE</h6>
+                            <h5 class="mb-0">+91 9730533699</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_2li row mt-4">
+                    <div class="col-md-2 col-2">
+                        <div class="contact_2lil">
+                            <span class="fs-2 col_red lh-1"><i class="fa fa-map-marker"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-10">
+                        <div class="contact_2lir">
+                            <h6>ADDRESS</h6>
+                            <h5 class="mb-0">In Front of Aanand Vihar Gate,Aanand Sagar Road,Shegaon</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_2li row mt-4">
+                    <div class="col-md-2 col-2">
+                        <div class="contact_2lil">
+                            <span class="fs-2 col_red lh-1"><i class="fa fa-envelope"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-10">
+                        <div="contact_2lir">
+                            <h6>EMAIL</h6>
+                            <h5 class="mb-0">sanjayadakane@gmail.com</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
         </div>
         <div class="cont_pg2 row mt-4">
             <div class="col-md-12">
@@ -409,6 +405,26 @@ Blog
                 document.body.style.paddingTop = '0'
             }
         }
+    </script>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            fetch(this.action, {
+                    method: 'POST',
+                    body: new URLSearchParams(new FormData(this)),
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                })
+                .then(response => response.text())
+                .then(data => {
+                    alert(data); // Shows "Thank you!" message
+                    this.reset(); // Clears the form
+                })
+                .catch(error => alert('Error: ' + error));
+        });
     </script>
 
 </body>
